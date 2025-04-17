@@ -10,7 +10,7 @@
   </head>
   <body>
     <!--метод get - через адрес строку. post - по тихой-->
-    <form action="handler.js" method="post" >
+    <form action="" method="post" >
 <!--      <label>-->
 <!--        Your name:-->
 <!--        <input type="text" name="user-name" placeholder="Your name"/>-->
@@ -21,7 +21,13 @@
         <input id="username" type="text" name="user-name" placeholder="Your name"/>
       </div>
 
+      <div>
+        <label for="email">Your email:</label>
+        <input id="email" type="email" name="email" placeholder="Your email"/>
+      </div>
 
+      <input type="submit" value="Submit">
+      <button type="reset">Reset</button>
     </form>
   </body>
 </html>
