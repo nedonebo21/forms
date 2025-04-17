@@ -5,9 +5,23 @@
 <!--    <link rel="icon" type="image/svg+xml" href="/vite.svg" />-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
     <title>Forms</title>
   </head>
   <body>
+    <!--метод get - через адрес строку. post - по тихой-->
+    <form action="handler.js" method="post" >
+<!--      <label>-->
+<!--        Your name:-->
+<!--        <input type="text" name="user-name" placeholder="Your name"/>-->
+<!--      </label>-->
 
+      <div>
+        <label for="username">Your name:</label>
+        <input id="username" type="text" name="user-name" placeholder="Your name"/>
+      </div>
+
+
+    </form>
   </body>
 </html>
