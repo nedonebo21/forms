@@ -71,11 +71,23 @@
         </label>
     </fieldset>
 
-    <select name="city" multiple>
-        <option value="Moscow">Москва</option>
-        <option value="Spb">Спб</option>
-        <option selected value="Ulyanovsk">Ульяновск</option>
-    </select>
+    <div>
+        <select name="city" multiple>
+            <option value="Moscow">Москва</option>
+            <option value="Spb">Спб</option>
+            <option selected value="Ulyanovsk">Ульяновск</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="country">Country</label>
+        <input id="country" list="countriesList"/>
+        <datalist id="countriesList">
+            <option selected value="Russia">Россия</option>
+            <option value="Afrika">Африка</option>
+            <option value="Iran">Иран</option>
+        </datalist>
+    </div>
 
     <input type="submit" value="Submit">
     <button type="reset">Reset</button>
