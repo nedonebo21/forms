@@ -10,7 +10,7 @@
 </head>
 <body>
 <!--метод get - через адрес строку. post - по тихой-->
-<form action="" method="post">
+<form action="" method="get">
     <!--      <label>-->
     <!--        Your name:-->
     <!--        <input type="text" name="user-name" placeholder="Your name"/>-->
@@ -70,6 +70,12 @@
             Гантели
         </label>
     </fieldset>
+
+    <select name="city">
+        <option value="Moscow">Москва</option>
+        <option value="Spb">Спб</option>
+        <option selected value="Ulyanovsk">Ульяновск</option>
+    </select>
 
     <input type="submit" value="Submit">
     <button type="reset">Reset</button>
